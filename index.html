@@ -1,7 +1,95 @@
 <!DOCTYPE html>
-<html>
+<!-- saved from url=(0021)https://overflood.cc/ -->
+<html lang="zxx"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    <meta name="viewport" content="user-scalable=no, initial-scale=0.85, maximum-scale=0.85, minimum-scale=0.85, width=device-width, height=device-height">
+    <title>Anermia</title>
+    <link rel="shortcut icon" href="https://i.imgur.com/sBQVWbd.png">
+    <meta property="og:site_name" content="Anermia">
+    <meta property="og:title" content="Anermia">
+    <meta property="og:description" content="Anermia is a website dedicated to flash games. Currently in beta so will be hosted by GitHub.">
+    <link rel="stylesheet" href="./Anermia_files/style.css">
+    <script src="./Anermia_files/particles.min.js.download"></script>
+    <script src="./Anermia_files/main.js.download" type="text/javascript"></script>
+    <script src="./Anermia_files/jquery-2.1.4.min.js.download"></script>
+    
+    <script src="./Anermia_files/bootstrap.min.js.download"></script>
+    <script src="./Anermia_files/jquery.min.js.download"></script>
+
+</head>
+
 <body>
-<h1>Anermia</h1>
-<p>Anermia is a website dedicated to flash games. Currently in beta so will be hosted by Github.</p>
-</body>
-</html>
+
+    <div id="particles-js"><canvas class="particles-js-canvas-el" width="1868" height="942" style="width: 100%; height: 100%;"></canvas></div>
+
+    <header class="header valign" style="background-image: url(&#39;&#39;); background-position: center; background-repeat: no-repeat; background-size: cover; box-shadow: 0 0 35px 35px #0f111d inset;" data-scroll-index="0">
+        <div class="container">
+            <div class="row">
+                <div class="landingpage caption">
+
+                    <i class="fab fa-twitch"></i>
+                    <br>
+                    <br>
+                    <br>
+                    <h1 style="text-shadow: 0px 0px 25px #56179d">Anermia</h1>
+                    <br>
+                    <p style="color: grey; text-shadow: 2px 2px 5px black">Anermia is a website dedicated to flash games. Currently in beta so will be hosted by GitHub.</p>
+                    <br>
+                    <br>
+                    <div class="links">
+                        
+                        <a href="https://overflood.cc/#previews">Contact</a>
+                        <a href="https://overflood.cc/#plans">Games</a>
+                        <a href="https://overflood.cc/#faq">Donate</a>
+                        
+                        <br>
+                        <br>
+                        <br>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("previews");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            };
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+
+
+</body></html>
